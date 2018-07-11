@@ -4,7 +4,7 @@ const fs = require('fs');
 const io = require('socket.io');
 
 const server = express();
-server.port = 1234;
+server.port = process.env.PORT || 1234;
 
 server.use(bodyParser.json());
 server.use(express.static('./'));
