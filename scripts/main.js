@@ -7,13 +7,7 @@ let messages = null;
 function renderMessages() {
 	display.innerHTML = messages
 		.map(msg => `
-			<li>
-				<style scoped>
-					h3 { display: inline-block; margin: 0; }
-					span { font-family: monospace; font-size: 1.25rem; }
-					p { margin: 0; font-size: 0.6666rem; }
-				</style>
-
+			<li class="message">
 				<h3>${msg.author}</h3>: <span>"${msg.text}"</span>
 				<p>${new Date(msg.id)}</p>
 			</li>

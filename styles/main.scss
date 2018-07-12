@@ -1,0 +1,65 @@
+html {
+	body {
+		margin: 0;
+		padding-top: 1rem;
+
+		* {
+			position: relative;
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		.app-title {
+			margin-bottom: 0.5rem;
+			text-align: center;
+		}
+
+		.message-submit-ui {
+			margin-bottom: 0.5rem;
+			text-align: center;
+
+			input {
+				padding: 0.25rem 0.5rem 0.3333rem;
+				width: 33.33vw;
+				min-width: 256px;
+				border: 1px solid;
+				border-radius: 0.1rem;
+			}
+
+			button {
+				padding: 0.25rem 0.5rem 0.3333rem;
+				font-weight: bold;
+				border: 1px solid black;
+				border-radius: 0.1rem;
+
+				&:hover {
+					cursor: pointer;
+					background-color: black;
+					color: white;
+				}
+			}
+		}
+
+		.messages {
+			text-align: center;
+
+			.message {
+				margin-bottom: 0.5rem;
+
+				h3 {
+					display: inline-block;
+				}
+
+				span {
+					font-family: monospace;
+					font-size: 1.25rem;
+				}
+
+				p {
+					font-size: 0.6666rem;
+				}
+			}
+		}
+	}
+}

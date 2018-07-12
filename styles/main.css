@@ -1,15 +1,42 @@
-body {
-	margin: 0;
-}
+html body {
+  margin: 0;
+  padding-top: 1rem; }
+  html body * {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; }
+  html body .app-title {
+    margin-bottom: 0.5rem;
+    text-align: center; }
+  html body .message-submit-ui {
+    margin-bottom: 0.5rem;
+    text-align: center; }
+    html body .message-submit-ui input {
+      padding: 0.25rem 0.5rem 0.3333rem;
+      width: 33.33vw;
+      min-width: 256px;
+      border: 1px solid;
+      border-radius: 0.1rem; }
+    html body .message-submit-ui button {
+      padding: 0.25rem 0.5rem 0.3333rem;
+      font-weight: bold;
+      border: 1px solid black;
+      border-radius: 0.1rem; }
+      html body .message-submit-ui button:hover {
+        cursor: pointer;
+        background-color: black;
+        color: white; }
+  html body .messages {
+    text-align: center; }
+    html body .messages .message {
+      margin-bottom: 0.5rem; }
+      html body .messages .message h3 {
+        display: inline-block; }
+      html body .messages .message span {
+        font-family: monospace;
+        font-size: 1.25rem; }
+      html body .messages .message p {
+        font-size: 0.6666rem; }
 
-div,
-input,
-button,
-ul,
-li,
-h1, h2, h3, h4, h5, h6,
-span,
-p {
-	margin: 0;
-	padding: 0;
-}
+/*# sourceMappingURL=main.css.map */
