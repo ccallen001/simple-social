@@ -5,7 +5,8 @@ html body {
     position: relative;
     box-sizing: border-box;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    outline: none; }
   html body .app-title {
     margin-bottom: 0.5rem;
     text-align: center; }
